@@ -10,8 +10,9 @@ body, #root {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    color: antiquewhite;
+    align-items: center;  
+    background: linear-gradient(-60deg, rgb(15, 15, 32), rgb(3, 25, 78));
+    color: rgb(190, 187, 183);
     
-    }
+    
+}
