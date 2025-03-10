@@ -1,7 +1,7 @@
 import React from 'react'
-import { Titles } from '../UI/Titles/Titles'
-import { Paragraphs } from '../UI/Paragraphs/Paragraphs'
-import { Subtitle } from '../UI/Subtitle/Subtitle'
+import { Titles } from '../../UI/Titles/Titles'
+import { Paragraphs } from '../../UI/Paragraphs/Paragraphs'
+import { Subtitle } from '../../UI/Subtitle/Subtitle'
 import "./AboutMain.css"
 
 export const AboutMain = () => {
