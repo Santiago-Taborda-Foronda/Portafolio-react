@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <>
     <header class="flex items-center justify-between h-20 w-full ">
-      <h1 class="text-4xl ml-27 ">Santiago</h1>
+      <h1 class="text-4xl ml-27 ">PORTAFOLIO</h1>
 
       <Navbar>
         <ul class="flex space-x-4 text-2xl mr-30">
