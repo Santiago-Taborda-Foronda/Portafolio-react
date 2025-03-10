@@ -1,10 +1,7 @@
-@import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-
-body, #root {
+main{
     font-family: "Sour Gummy", sans-serif;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,6 +11,3 @@ body, #root {
     background: linear-gradient(-60deg, rgb(15, 15, 32), rgb(3, 25, 78));
     color: rgb(190, 187, 183); 
 }
-.glow {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  }

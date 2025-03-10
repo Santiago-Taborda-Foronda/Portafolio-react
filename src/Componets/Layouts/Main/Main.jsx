@@ -16,9 +16,9 @@ export const Main = () => {
             <div>
                 <Navbar >
                     <ul className="flex space-x-4 mt-4 max-w-90 justify-center text-3xl">
-                    <NavbarItems  content={<FaInstagram />}/>
-                    <NavbarItems content={<FaGithub />}/>
-                    <NavbarItems content={<FaLinkedinIn />}/>
+                    <NavbarItems  content={<FaInstagram />} isExternal href="https://www.instagram.com/santiago_t_6/"/>
+                    <NavbarItems content={<FaGithub />} isExternal href="https://github.com/Santiago-Taborda-Foronda"/>
+                    <NavbarItems content={<FaLinkedinIn />} isExternal href="https://github.com/Santiago-Taborda-Foronda"/>
                     </ul>
                 </Navbar>
                 
