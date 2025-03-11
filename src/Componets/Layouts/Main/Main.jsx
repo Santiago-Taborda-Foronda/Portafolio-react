@@ -11,12 +11,13 @@ import { Titles } from '../../UI/Titles/Titles';
 export const Main = () => {
   return (
     <>
-    <div className="border-3 rounded-2xl text-center p-10 mt-25">
+    <div className="sm:ml-5 sm:mr-5 rounded-2xl bg-black/40 border border-white/10 text-center p-10 mt-25">
         <Titles className="" >Developer</Titles>
-        <div className='flex space-x-30'>
-            <div className='mt-10 max-w-100 min-w-100 ml-15'>
-                <Titles className="m-5">Santiago</Titles>
-                <img src={myImage} alt="" className='w-90 h-90'/>
+        <div className='flex sm:flex sm:flex-col sm:items-center sm:space-x-2 md:items-center lg:flex-row space-x-30'>
+
+            <div className='sm:flex sm:flex-col sm:w-70 sm:max-h-70 sm:justify-center sm:ml-0 sm:items-center md:ml-0 mt-10 max-w-100 min-w-100 ml-15'>
+                <Titles className="sm:text-3xl m-5">Santiago</Titles>
+                <img src={myImage} alt="" className='sm:w-40 sm:h-45 lg:w-50 lg:h-50 w-90 h-90'/>
                 <div class="">
                     <Navbar >
                         <ul className="flex space-x-4 mt-5 mt- max-w-90 justify-center text-3xl">
@@ -28,17 +29,17 @@ export const Main = () => {
                     
                 </div>
             </div>
-            <div className='flex flex-wrap max-w-150 mt-10 mr-10 text-left'>
+            <div className='flex sm:text-center sm:mr-0 flex-wrap max-w-150 mt-10 mr-10 lg:text-left'>
                 <Paragraphs>
-                Soy un Aprendiz de Sena Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam incidunt aperiam error vel quibusdam blanditiis tempora dicta velit omnis qui sapiente iure, numquam officia commodi! Eligendi inventore optio modi ipsa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt atque, ducimus ut beatae architecto corporis vitae. Laborum aperiam dolore necessitatibus distinctio rerum? Delectus ea sapiente recusandae sit doloremque ab laudantium?
+                Soy aprendiz de programación y estudio actualmente en el SENA, donde me formaré como Tecnólogo en Análisis y Desarrollo de Software. Me apasiona el mundo del desarrollo y cada día busco mejorar mis habilidades para ser un mejor profesional. 
                 </Paragraphs>
 
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus modi recusandae atque doloremque, id reprehenderit! Repudiandae voluptatum voluptates inventore voluptas obcaecati harum maxime unde, omnis illo? Soluta, sunt in. Eveniet!
+                Me especializo principalmente en el frontend, creando interfaces modernas y funcionales. Manejo tecnologías como HTML, CSS, JavaScript y React. También tengo conocimientos en backend con Node.js y en bases de datos como MySQL y MongoDB.  
                 </Paragraphs>
 
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur eligendi dolor est harum, sunt incidunt nisi libero, quasi in accusamus nihil aut nulla dignissimos similique eum quia quae.
+                Disfruto programar, diseñar y dar estilo a las aplicaciones. Me gusta aprender cosas nuevas, mejorar mis diseños y mantenerme actualizado con las tendencias del desarrollo web. Cada proyecto es una oportunidad para crecer. 
                 </Paragraphs>
             </div>
         </div>

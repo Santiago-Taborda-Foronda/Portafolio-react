@@ -7,7 +7,7 @@ import "./AboutMain.css"
 export const AboutMain = () => {
   return (   
     <>
-        <div className="flex justify-between gap-25 max-w-600 ml-20 mr-20 mt-20 ">
+        <div className="flex sm:flex-col justify-between gap-25 max-w-600 ml-20 mr-20 mt-20 ">
             <div className=" flex flex-col   max-w-300 min-w-100 justify-center text-left">
 
                 <Titles className="text-center">Habilidades tecnicas</Titles>
@@ -15,22 +15,22 @@ export const AboutMain = () => {
                 <Subtitle className="text-left">Frontend</Subtitle> 
 
                 <Paragraphs>
-                    ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus rerum voluptatibus adipisci eveniet, quibusdam, dignissimos cumque, beatae iste repellendus provident omnis dicta voluptas? Alias nam neque nesciunt quibusdam architecto.
+                Me enfoco en el desarrollo frontend porque disfruto crear estilos y aplicar mi creatividad en cada proyecto. Creo firmemente que una interfaz bien diseñada marca la diferencia, ya que la primera impresión visual puede captar la atención del usuario y generar confianza. 
                 </Paragraphs>
 
                 <Subtitle>Control de versiones</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                Manejo herramientas de control de versiones como Git y GitHub, esenciales para organizar y dar seguimiento a mis proyectos. Me permiten trabajar de forma ordenada, crear historial de cambios y colaborar en equipo de manera eficiente. Son parte clave de mi flujo de trabajo.
                 </Paragraphs>
 
                 <Subtitle>Educacion y Liderazgo</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                Durante mi formación he desarrollado habilidades en lógica de programación, las cuales son base fundamental para resolver problemas de manera estructurada. También he tenido la oportunidad de practicar la preparación y conducción de presentaciones, lo que ha fortalecido mi capacidad para comunicar ideas de forma clara.
                 </Paragraphs>
 
                 <Subtitle>Desarrollo Web</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                He aprendido a desarrollar aplicaciones del lado del cliente, enfocándome en la estructura, el diseño y la funcionalidad del frontend. Aunque aún no tengo experiencia laboral, busco aplicar mis conocimientos en proyectos reales para seguir creciendo como desarrollador web.
                 </Paragraphs>
             </div>
             <div className="flex flex-col max-w-300 min-w-100 justify-center text-left">
@@ -38,24 +38,22 @@ export const AboutMain = () => {
                 <Subtitle className="text-left">Comunicacion Afectiva</Subtitle> 
 
                 <Paragraphs>
-                    ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus rerum voluptatibus adipisci eveniet, quibusdam, dignissimos cumque, beatae iste repellendus provident omnis dicta voluptas? Alias nam neque nesciunt quibusdam architecto.
-                </Paragraphs>
-
-            
+                Valoro la comunicación efectiva como una herramienta fundamental para trabajar en equipo y evitar malentendidos. Me esfuerzo por expresar mis ideas con claridad, tanto de forma verbal como escrita, y practico la escucha activa para lograr una mejor colaboración.
+                </Paragraphs>         
 
                 <Subtitle>Honestidad</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                La honestidad es uno de mis valores personales más importantes, tanto dentro como fuera del entorno académico. Siempre procuro actuar con integridad, siendo transparente en mi trabajo y mis compromisos. Considero que la confianza se construye siendo honesto en cada paso.
                 </Paragraphs>
 
                 <Subtitle>Respeto</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                El respeto es esencial en cualquier entorno, especialmente al trabajar con personas que tienen distintas ideas o formas de pensar. Me esfuerzo por mantener un trato amable y considerado, valorando las opiniones y el trabajo de los demás. Creo que un ambiente respetuoso favorece el aprendizaje.
                 </Paragraphs>
 
                 <Subtitle>Trabajo en equipo</Subtitle>
                 <Paragraphs>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit dolore molestiae enim officia, exercitationem sed magni reprehenderit fugiat dolorum autem temporibus optio possimus blanditiis, quas praesentium est! Voluptate, esse.
+                El trabajo en equipo me ha permitido crecer tanto en habilidades técnicas como personales. Me gusta aportar, colaborar y aprender de otros, reconociendo que juntos se logran mejores resultados. Estoy abierto a recibir y dar retroalimentación para mejorar en cada proyecto.
                 </Paragraphs>
             </div>
         </div>    
