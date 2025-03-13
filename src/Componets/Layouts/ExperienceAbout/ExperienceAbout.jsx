@@ -6,9 +6,9 @@ import { TextInfo } from '../../UI/TextInfo/TextInfo'
 export const ExperienceAbout = () => {
   return (
     <>
-    <div className="flex w-full justify-around mt-30 ">
+    <div className="flex w-full justify-around mt-30 md:mt-10">
 
-        <div className=" space-y-30 ">
+        <div className=" space-y-30">
         <TextInfo className="">
             <Titles>Experiencia Laboral</Titles>
             <Paragraphs>

@@ -9,7 +9,7 @@ import { Titles } from '../../UI/Titles/Titles'
 
 export const Main = () => {
   return (
-    <div className="w-[90%] max-w-[700px] sm:ml-5 sm:mr-5 lg:min-w-250 rounded-xl bg-black/40 border border-white/10 text-center p-6 sm:p-10 mt-12">
+    <div className="w-[90%] max-w-[700px] sm:ml-5 sm:mr-5 lg:min-w-250 lg:mt-20 2xl:mt-40 rounded-xl bg-black/40 border border-white/10 text-center p-6 sm:p-10 mt-12 sm:shadow-xl sm:transition-all sm:duration-500 sm:ease-in-out sm:hover:shadow-2xl sm:hover:scale-105 custom-shadow">
       <Titles>Developer</Titles>
 
       <div className="flex flex-col items-center lg:flex-row lg:space-x-30 mt-5">
